@@ -1,0 +1,69 @@
+@use "../../sass/variables.scss" as *;
+
+.Login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .login__form {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 35px;
+    }
+
+    h2 {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+
+    label {
+        text-align: left;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .login__input-wrapper {
+        max-width: 524px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+        margin-top: 70px;
+    }
+
+    .login__input-name {
+        margin-bottom:  10px;
+    }
+
+    input {
+        height: 50px;
+        padding: 18px 13px;
+        border: 2px solid $border-input-color;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    button {
+        width: 524px;
+        margin-right: 10px;
+        border: none;
+        background-color: $contrast-color;
+        border-radius: 6px;
+        padding: 13px;
+        margin-top: 66px;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 21px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+};
