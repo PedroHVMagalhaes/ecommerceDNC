@@ -15,7 +15,6 @@ const ProductDetail = ({ data }) => {
           <p>{data.title}</p>
         </div>
       </div>
-      // Lado
       <div className="product-detail__right-side">
         <h1>Informações Sobre o Produto</h1>
         <h2>{data.price}</h2>

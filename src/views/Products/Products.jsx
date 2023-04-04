@@ -14,7 +14,7 @@ const Products = ({ data }) => {
     <section className="product">
       <HeaderMenu />
       <Search />
-      <ProductDetail />
+      <ProductDetail data={selectedProduct}/>
     </section>
   );
 };
