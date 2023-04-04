@@ -11,11 +11,11 @@ import { PRODUCTS_MOCK } from "./mock/products.mock";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home data={PRODUCTS_MOCK} />,
+    element: <Login />,
   },
   {
     path: "/home",
-    element: <Login />,
+    element: <Home data={PRODUCTS_MOCK} />,
   },
   {
     path: "/products/:productId",

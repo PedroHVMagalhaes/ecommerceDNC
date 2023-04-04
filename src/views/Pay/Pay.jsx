@@ -1,12 +1,12 @@
-import React from 'react'
-import Header from '../../components/Header/Header'
+import React from "react";
+import Header from "../../components/Header/Header";
 
 const Pay = () => {
   return (
     <div>
-        <Header />
+      <Header />
     </div>
-  )
-}
+  );
+};
 
-export default Pay
+export default Pay;
